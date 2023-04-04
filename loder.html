@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="Bootstrap kit/css/font-awesome.min.css">
+       <link rel="stylesheet" href="Bootstrap kit/css/bootstrap.min.css">
+      <link rel="stylesheet" href="Bootstrap kit/css/animate.min.css">
+      <link rel="stylesheet" href="Bootstrap kit/css/aos.css">
+      <link rel="stylesheet" href="Bootstrap kit/css/hover-min.css">
+      <link rel="stylesheet" href="Bootstrap kit/css/bootstrap.min.css">
+      <script src="Bootstrap kit/js/jquery.js"></script>
+      <script src="Bootstrap kit/js/bootstrap.min.js"></script>
+      <script src="Bootstrap kit/js/jquery.min.js"></script>
+      <script src="Bootstrap kit/js/counterup.min.js"></script>
+      <script src="Bootstrap kit/js/owl.carousel.js"></script>
+      <script src="Bootstrap kit/js/owl.carousel.min.js"></script>
+      <script src="Bootstrap kit/js/aos.js"></script>
+      <script src="Bootstrap kit/js/main.js"></script>
+      <style>
+             html,body{
+	background:transparent;
+	margin:0;
+}
+.centered{
+	width:400px;
+	height:400px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:transparent;
+	filter: blur(10px) contrast(20);
+}
+.blob-1,.blob-2{
+	width:70px;
+	height:70px;
+	position:absolute;
+	background:#fff;
+	border-radius:50%;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+}
+.blob-1{
+	left:20%;
+	animation:osc-l 2.5s ease infinite;
+}
+.blob-2{
+	left:80%;
+	animation:osc-r 2.5s ease infinite;
+	background:#0ff;
+}
+@keyframes osc-l{
+	0%{left:20%;}
+	50%{left:50%;}
+	100%{left:20%;}
+}
+@keyframes osc-r{
+	0%{left:80%;}
+	50%{left:50%;}
+	100%{left:80%;}
+}
+      </style>
+</head>
+<body>
+       <div class="container">
+              <div class="row text-center">
+              <div class = "centered">
+              <div class = "blob-1"></div>
+              <div class = "blob-2"></div>
+       </div>
+              </div>
+       </div>     
+</body>
+</html>

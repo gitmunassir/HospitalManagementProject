@@ -1,0 +1,43 @@
+.head
+{
+     min-height: 50px;
+     background: #000;
+}
+.head2
+{
+       background: #c0c029;
+}
+.nav
+{
+       min-height: 40px;
+}
+div .icon:hover
+{
+border-top: 4px solid rgb(81, 126, 111);
+border-bottom: 2px solid rgb(81, 126, 111);
+transition: .2s ease;
+}
+a .heading:hover
+{
+border-top: 4px solid rgb(81, 126, 111);
+/* border-bottom: 2px solid rgb(81, 126, 111); */
+transition: .2s ease;
+}
+div .butn
+{
+       margin-top: 10px;
+}
+div .slider2
+{
+       margin-top: 10px;
+}
+.footer
+{
+       min-height: 400px;
+    
+}
+.foot
+{
+       min-height:200px ;
+       background: rgb(99, 83, 83);
+}
